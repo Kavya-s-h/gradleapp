@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Kavya-s-h/GradleApp.git'
+                git 'https://github.com/Kavya-s-h/gradleapp.git'
             }
         }
 
